@@ -11,9 +11,6 @@ use App\Models\Position;
 
 class EmployeeController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
     public function index()
     {
         $pageTitle = 'Employee List';
